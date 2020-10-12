@@ -1,3 +1,4 @@
+
 // Globals.
 const r = React;
 const rd = ReactDOM;
@@ -474,7 +475,7 @@ function RegionsTable({
   return (
     e('div', null,
       e('div', {className: 'table-responsive covid-data-table-wrapper scrollbar scrollbar-primary'},
-        e('table', {className: 'table table-dark table-hover'}, tHead, tBody)
+        e('table', {className: 'table table-borderless table-dark table-hover'}, tHead, tBody)
       ),
       e('small', {className: 'text-muted'}, '* Table is scrollable')
     )

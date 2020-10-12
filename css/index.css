@@ -28,7 +28,7 @@ body {
 .covid-data-table-wrapper > table > thead th {
   position: sticky;
   top: 0;
-  box-shadow: 0 0 0 1px #343a40;
+  box-shadow: 0 0 0 1px #000000;
 }
 
 .covid-data-table-wrapper > table > thead th[sortable] {
@@ -57,4 +57,8 @@ body {
   
   .scrollbar-primary {
   scrollbar-color: #4285F4 #F5F5F5;
+  }
+  
+  .table .thead-dark th {
+    background-color: #000000 ;
   }
